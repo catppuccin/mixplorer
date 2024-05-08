@@ -12,40 +12,45 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/auriafoxgirl/mixplorer/main/assets/previews/preview.webp"/>
+	<img src="assets/previews/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/auriafoxgirl/mixplorer/main/assets/previews/latte.webp"/>
+<img src="assets/previews/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/auriafoxgirl/mixplorer/main/assets/previews/frappe.webp"/>
+<img src="assets/previews/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/auriafoxgirl/mixplorer/main/assets/previews/macchiato.webp"/>
+<img src="assets/previews/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/auriafoxgirl/mixplorer/main/assets/previews/mocha.webp"/>
+<img src="assets/previews/mocha.webp"/>
 </details>
 
 ## Usage
 
+### Downloading theme
+1. Select and download your flavor
+   * [🌻 Latte](output/mixplorer-catppuccin-latte.zip)
+   * [🪴 Frappé](output/mixplorer-catppuccin-frappe.zip)
+   * [🌺 Macchiato](output/mixplorer-catppuccin-macchiato.zip)
+   * [🌿 Mocha](output/mixplorer-catppuccin-mocha.zip)
+2. Open downloaded zip in MiXplorer
+3. Click on accent color you want to use
+4. select import
+
+### Genering all theme flavors and accentd s with script yourself
 1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-<!-- this section is optional -->
-## 🙋 FAQ
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+2. run `build.lua` in lua to generate all 4 flavors
+3. run `zip.py` in python to generate all accents and zip it
+4. the files will now be in `output` folder, open `mixplorer-catppuccin-<flavor>.zip`, click on accent you want to choose and click import
 
 ## 💝 Thanks to
 
