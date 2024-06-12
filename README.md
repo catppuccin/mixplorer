@@ -48,6 +48,7 @@
 
 ### Building with script
 1. Clone this repository locally
+2. Make sure you have catppuccin python library installed, you can install it with `pip install catppuccin`
 3. run `build.py` in python to generate all accents and zip it
 4. the files will now be in `output` folder, open `mixplorer-catppuccin-<flavor>.zip`, click on accent you want to choose and click import
 
