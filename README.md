@@ -48,8 +48,7 @@
 
 ### Building with script
 1. Clone this repository locally
-2. run `build.lua` in lua to generate all 4 flavors
-3. run `zip.py` in python to generate all accents and zip it
+3. run `build.py` in python to generate all accents and zip it
 4. the files will now be in `output` folder, open `mixplorer-catppuccin-<flavor>.zip`, click on accent you want to choose and click import
 
 ## 💝 Thanks to
