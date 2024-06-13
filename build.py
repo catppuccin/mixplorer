@@ -9,6 +9,10 @@ file = open('properties.xml', 'r')
 theme = file.read()
 file.close()
 
+# make output directory
+if not os.path.exists('output'):
+    os.mkdir('output')
+
 # generate all flavors
 for flavor in PALETTE:
     with ZipFile('output/mixplorer-catppuccin-' + flavor.name + '.zip', 'w') as flavor_zip:
