@@ -37,11 +37,7 @@
 ## Usage
 
 ### Downloading theme
-1. Select and download your flavor
-   * [🌻 Latte](output/mixplorer-catppuccin-latte.zip)
-   * [🪴 Frappé](output/mixplorer-catppuccin-frappe.zip)
-   * [🌺 Macchiato](output/mixplorer-catppuccin-macchiato.zip)
-   * [🌿 Mocha](output/mixplorer-catppuccin-mocha.zip)
+1. Download your flavor from [releases](https://github.com/catppuccin/mixplorer/releases/latest)
 2. Open downloaded zip in MiXplorer
 3. Click on accent color you want to use
 4. select import
@@ -50,7 +46,7 @@
 1. Clone this repository locally
 2. Make sure you have catppuccin python library installed, you can install it with `pip install catppuccin`
 3. run `build.py` in python to generate all accents and zip it
-4. the files will now be in `output` folder, open `mixplorer-catppuccin-<flavor>.zip`, click on accent you want to choose and click import
+4. the files will now be in `output` folder, open `mixplorer-catppuccin-<flavor>.zip` in mixplorer, click on accent you want to choose and click import
 
 ## 💝 Thanks to
 
